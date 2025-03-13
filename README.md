@@ -27,11 +27,6 @@ git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
 
-### 3️⃣ Configuration  
-Update `application.properties` with your MongoDB Atlas URI:  
-```properties
-spring.data.mongodb.uri=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database-name>?retryWrites=true&w=majority
-```
 
 ### 4️⃣ Build and Run  
 ```bash
